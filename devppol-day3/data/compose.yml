@@ -1,0 +1,7 @@
+services:
+	todos:
+    image: atbb/todos
+    ports:
+      - 3000:3000
+    volumes:
+      - data:/etc/todos
